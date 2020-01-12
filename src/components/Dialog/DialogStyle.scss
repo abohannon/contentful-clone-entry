@@ -1,0 +1,36 @@
+.dialog-root {
+  display: grid;
+  row-gap: 32px;
+  min-height: 175px;
+}
+
+.dialog-loading {
+  display: flex;
+  flex-direction: row;
+}
+
+.dialog-spinner {
+  margin-left: 16px;
+}
+
+.dialog-buttons {
+  display: grid;
+  grid-template-columns: min-content min-content;
+  column-gap: 16px;
+  align-self: end;
+}
+
+.dialog-button {
+  align-self: end;
+  justify-self: start;
+  width: 104px;
+}
+
+.select-all {
+  width: 100%;
+  padding: 16px 8px;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #d3d3d3;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}

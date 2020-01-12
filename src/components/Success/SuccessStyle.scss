@@ -1,0 +1,18 @@
+.success-entry {
+  color: lightgray;
+}
+
+.success-undo {
+  color: indianred;
+  font-size: 0.8rem;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.success-spinner {
+  margin: auto;
+}

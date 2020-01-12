@@ -1,0 +1,17 @@
+.entry-list-item-root {
+  list-style: none;
+  width: 100%;
+  border-left: 1px solid lightblue;
+}
+
+.entry-list-item-checkbox-root {
+  padding-bottom: 8px;
+}
+
+.entry-list-item-checkbox-input {
+  cursor: pointer;
+}
+
+.entry-list-item-nested-list {
+  padding-left: 18px;
+}
